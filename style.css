@@ -1,0 +1,97 @@
+@font-face {
+    font-family: monkey;
+    src: url(HappyMonkey-Regular.ttf);
+}
+
+body{
+    font-size: larger;
+    font-family: 'monkey', sans-serif;
+    text-align: center;
+    background-color: #a2d2ff;
+    color: white;
+    background-image: linear-gradient(skyblue , lightpink);
+}
+
+
+#img {
+    width: 150px;
+    border: 6px solid #EFB0C9;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+#title{
+    margin-bottom: 25px;
+}
+
+h1,h2,h4{
+    text-shadow: 0px 0px 1px black;
+}
+#age{
+    background-color: #EFB0C9;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+#date{
+    background-color: #EFB0C9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cover1 ,  .cover2 , .cover3 , .cover4 , .cover5{ 
+
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 15px;
+    height: 400px;
+    background-image: url(cover.jpg);
+    background-size: cover;
+    
+    
+    
+}
+#gifts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cover1:hover{
+    background-image: url(happy.gif);
+}
+
+.cover2:hover{
+    background-image: url(badass.gif);
+}
+.cover3:hover{
+    background-image: url(genius.gif);
+}
+
+.cover4:hover{
+    background-image: url(hot.gif);
+}
+
+
+
+.cover5:hover{
+    background-image: url(cheers.gif);
+}
+
+#cheers{
+    height: 200px;
+}
+
+footer{
+    margin: 40px auto 20px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    color: white;
+}
